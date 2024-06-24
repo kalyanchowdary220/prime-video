@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.prime-video-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .prime-video-container {
+    height: 150vh;
+  }
+}
+.prime-image {
+  height: 300px;
+  width: 100%;
+}
+.action-heading {
+  color: #ffffff;
+  font-family: 'roboto';
+  font-size: 30px;
+}
+.movie-list-container {
+  padding: 50px;
+}

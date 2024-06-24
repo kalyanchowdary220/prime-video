@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.popup-content {
+  background-color: #ffffff;
+  border-radius: 15px;
+  height: 500px;
+  margin: 10px;
+}
+.model-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.close-button {
+  align-self: flex-end;
+  border: 0;
+  background-color: transparent;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.thumbnail {
+  height: 100px;
+  width: 150px;
+  margin: 10px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail {
+    height: 200px;
+    width: 300px;
+  }
+}
